@@ -1,0 +1,108 @@
+/* La estructura base es cabecera , cuerpo y el pie de pagina*/
+
+header{
+    background-color: #9dc5bb;
+    border-top: 6px;
+    padding: 20px 40px;
+    
+}
+
+body {
+    margin: 0;     
+    padding: 0;    
+    background-color: #dee5e5; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+footer{
+    background-color: #9dc5bb;
+    border-top: 6px;
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+/*El siguiente aparto es la customizacion del principal*/
+
+div.menu-cv{
+    flex: 1;
+    
+}
+.menu-cv ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+    gap: 35px;
+    justify-content: flex-start;
+    justify-content: center;
+
+}
+
+.menu-cv li{
+    font-size: 18px;
+    padding: 60px 0;
+    
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.medio{
+    background-color: #9dc5bb;
+}
+
+li{
+    list-style: none;
+}
+
+/*
+Segmento para info
+*/
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    flex: 1;
+}
+.imginfo{
+    width: 50%;
+}
+
+/*Segmento para perfil profesional*/
+
+.profesional{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    flex: 1;
+}
+
+/*Segmento experiencia*/
+.exp{
+    flex: 1;
+}
+
+.portafolio{
+    flex: 1;
+}
+.hab{
+    flex: 1;
+}
+.cursos{
+    flex: 1;
+}
